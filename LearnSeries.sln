@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnThread", "LearnThread\LearnThread.csproj", "{15667720-D5E7-406D-A0BA-7887AFFC3BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSSIS", "LearnSSIS\LearnSSIS.csproj", "{49DFEE4E-1D29-4C43-B3FC-CD19E37CA1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learnADO", "learnADO\learnADO.csproj", "{F6AEB806-04CA-4102-BB34-541A44B8EC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learnCLR", "learnCLR\learnCLR.csproj", "{6FE3438E-2C92-4425-8D92-36AA54E16E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAlgorithm", "LearnAlgorithm\LearnAlgorithm.csproj", "{8312ED15-A409-4D9C-995F-6ADEEF875580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15667720-D5E7-406D-A0BA-7887AFFC3BE5}.Debug|x86.ActiveCfg = Debug|x86
+		{15667720-D5E7-406D-A0BA-7887AFFC3BE5}.Debug|x86.Build.0 = Debug|x86
+		{15667720-D5E7-406D-A0BA-7887AFFC3BE5}.Release|x86.ActiveCfg = Release|x86
+		{15667720-D5E7-406D-A0BA-7887AFFC3BE5}.Release|x86.Build.0 = Release|x86
+		{49DFEE4E-1D29-4C43-B3FC-CD19E37CA1CF}.Debug|x86.ActiveCfg = Debug|x86
+		{49DFEE4E-1D29-4C43-B3FC-CD19E37CA1CF}.Debug|x86.Build.0 = Debug|x86
+		{49DFEE4E-1D29-4C43-B3FC-CD19E37CA1CF}.Release|x86.ActiveCfg = Release|x86
+		{49DFEE4E-1D29-4C43-B3FC-CD19E37CA1CF}.Release|x86.Build.0 = Release|x86
+		{F6AEB806-04CA-4102-BB34-541A44B8EC6A}.Debug|x86.ActiveCfg = Debug|x86
+		{F6AEB806-04CA-4102-BB34-541A44B8EC6A}.Debug|x86.Build.0 = Debug|x86
+		{F6AEB806-04CA-4102-BB34-541A44B8EC6A}.Release|x86.ActiveCfg = Release|x86
+		{F6AEB806-04CA-4102-BB34-541A44B8EC6A}.Release|x86.Build.0 = Release|x86
+		{6FE3438E-2C92-4425-8D92-36AA54E16E57}.Debug|x86.ActiveCfg = Debug|x86
+		{6FE3438E-2C92-4425-8D92-36AA54E16E57}.Debug|x86.Build.0 = Debug|x86
+		{6FE3438E-2C92-4425-8D92-36AA54E16E57}.Release|x86.ActiveCfg = Release|x86
+		{6FE3438E-2C92-4425-8D92-36AA54E16E57}.Release|x86.Build.0 = Release|x86
+		{8312ED15-A409-4D9C-995F-6ADEEF875580}.Debug|x86.ActiveCfg = Debug|x86
+		{8312ED15-A409-4D9C-995F-6ADEEF875580}.Debug|x86.Build.0 = Debug|x86
+		{8312ED15-A409-4D9C-995F-6ADEEF875580}.Release|x86.ActiveCfg = Release|x86
+		{8312ED15-A409-4D9C-995F-6ADEEF875580}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
