@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using LearnAlgorithm.Mergesort;
+using LearnAlgorithm.HeapSort;
 
 namespace LearnAlgorithm
 {
@@ -10,7 +11,7 @@ namespace LearnAlgorithm
     {
         static void Main(string[] args)
         {
-            ILearn learn = new MyMergeSort();
+            ILearn learn = new MyHeapSort(); ;
             learn.Learn();
 
             Console.ReadLine();
