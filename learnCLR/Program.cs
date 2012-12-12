@@ -6,6 +6,7 @@ using learnCLR.LearnCast;
 using learnCLR.LearnRegex;
 using learnCLR.LearnDate;
 using learnCLR.LearnMethod;
+using learnCLR.LearnParameters;
 
 namespace learnCLR
 {
@@ -13,7 +14,7 @@ namespace learnCLR
     {
         static void Main(string[] args)
         {
-            ILearn learn = new TrickyConstructor();
+            ILearn learn = new DefaultParameters();
             learn.Learn();
 
             Console.ReadLine();

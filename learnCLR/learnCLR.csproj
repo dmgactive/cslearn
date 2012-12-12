@@ -50,6 +50,7 @@
     <Compile Include="LearnMethod\ValueCon.cs" />
     <Compile Include="LearnModule\FUT.cs" />
     <Compile Include="LearnModule\RUT.cs" />
+    <Compile Include="LearnParameters\DefaultParameters.cs" />
     <Compile Include="LearnRegex\FileRegex.cs" />
     <Compile Include="LearnRegex\TestRegex.cs" />
     <Compile Include="Program.cs" />
