@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HeapSort\MyHeapSort.cs" />
+    <Compile Include="HeapSort\OneHeapSort.cs" />
     <Compile Include="ILearn.cs" />
     <Compile Include="Mergesort\MyMergeSort.cs" />
+    <Compile Include="Mergesort\OneMerge.cs" />
     <Compile Include="Mergesort\SimpleMergesort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

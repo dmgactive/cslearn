@@ -11,7 +11,7 @@ namespace LearnAlgorithm
     {
         static void Main(string[] args)
         {
-            ILearn learn = new MyHeapSort(); ;
+            ILearn learn = new OneHeapSort();
             learn.Learn();
 
             Console.ReadLine();
