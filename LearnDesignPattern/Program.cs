@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using LearnDesignPattern.Decoration;
+using LearnDesignPattern.Command;
 
 namespace LearnDesignPattern
 {
@@ -10,7 +11,7 @@ namespace LearnDesignPattern
     {
         static void Main(string[] args)
         {
-            ILearn learn = new MyDecorate();
+            ILearn learn = new RemoteLoader();
             learn.Learn();
 
             Console.ReadKey();

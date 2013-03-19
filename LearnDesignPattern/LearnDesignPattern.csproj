@@ -41,6 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\CeilingFan.cs" />
+    <Compile Include="Command\CeilingFanOffCommand.cs" />
+    <Compile Include="Command\CeilingFanOnCommand.cs" />
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\Light.cs" />
+    <Compile Include="Command\LightOffCommand.cs" />
+    <Compile Include="Command\LightOnCommand.cs" />
+    <Compile Include="Command\NoCommand.cs" />
+    <Compile Include="Command\RemoteControl.cs" />
+    <Compile Include="Command\RemoteLoader.cs" />
+    <Compile Include="Command\Stereo.cs" />
+    <Compile Include="Command\StereoOffCommand.cs" />
+    <Compile Include="Command\StereoOnWithCDCommand.cs" />
     <Compile Include="Decoration\Beverage.cs" />
     <Compile Include="Decoration\CondimentDecorator.cs" />
     <Compile Include="Decoration\DarkRoast.cs" />
@@ -54,6 +67,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
