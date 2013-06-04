@@ -45,6 +45,11 @@
     <Compile Include="Command\CeilingFanOffCommand.cs" />
     <Compile Include="Command\CeilingFanOnCommand.cs" />
     <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\Computer.cs" />
+    <Compile Include="Command\ComputerControl.cs" />
+    <Compile Include="Command\ComputerOffCommand.cs" />
+    <Compile Include="Command\ComputerOnCommand.cs" />
+    <Compile Include="Command\HandleComputer.cs" />
     <Compile Include="Command\Light.cs" />
     <Compile Include="Command\LightOffCommand.cs" />
     <Compile Include="Command\LightOnCommand.cs" />

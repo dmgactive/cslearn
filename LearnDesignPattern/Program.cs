@@ -11,7 +11,7 @@ namespace LearnDesignPattern
     {
         static void Main(string[] args)
         {
-            ILearn learn = new RemoteLoader();
+            ILearn learn = new HandleComputer();
             learn.Learn();
 
             Console.ReadKey();
