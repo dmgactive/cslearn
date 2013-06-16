@@ -71,6 +71,12 @@
     <Compile Include="ILearn.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templete\CaffeineBeverage.cs" />
+    <Compile Include="Templete\CaffeineBeverageWithHook.cs" />
+    <Compile Include="Templete\Coffee.cs" />
+    <Compile Include="Templete\CoffeeWithHook.cs" />
+    <Compile Include="Templete\Tea.cs" />
+    <Compile Include="Templete\TempleteRun.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

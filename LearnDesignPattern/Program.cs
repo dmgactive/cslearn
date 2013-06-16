@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using LearnDesignPattern.Decoration;
 using LearnDesignPattern.Command;
+using LearnDesignPattern.Templete;
 
 namespace LearnDesignPattern
 {
@@ -11,7 +12,7 @@ namespace LearnDesignPattern
     {
         static void Main(string[] args)
         {
-            ILearn learn = new HandleComputer();
+            ILearn learn = new TempleteRun();
             learn.Learn();
 
             Console.ReadKey();
